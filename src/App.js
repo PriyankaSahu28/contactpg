@@ -29,7 +29,7 @@ function App() {
     };
 
     try {
-      await fetch('https://contactpg.vercel.app/', {
+      await fetch('https://open-ai-ping-eight.vercel.app/msg', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
